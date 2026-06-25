@@ -33,4 +33,13 @@
             </plugin>
         </plugins>
     </build>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/raffarizzy/program_tiketnba</url>
+        </repository>
+    </distributionManagement>
+
 </project>
