@@ -19,7 +19,12 @@ public class Ticket {
         System.out.println("Game: " + game.getMatch());
         System.out.println("Date: " + game.getDate());
         System.out.println("Quantity: " + quantity);
-        System.out.printf("Total Amount: $%.2f\n", totalAmount);
+        System.out.printf(java.util.Locale.US, "Total Amount: $%.2f\n", totalAmount);
         System.out.println("==========================\n");
     }
+
+    public String getCustomerName() { return customerName; }
+    public Game getGame() { return game; }
+    public int getQuantity() { return quantity; }
+    public double getTotalAmount() { return totalAmount; }
 }

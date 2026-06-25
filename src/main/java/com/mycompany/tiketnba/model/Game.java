@@ -27,6 +27,6 @@ public class Game {
 
     @Override
     public String toString() {
-        return String.format("[%d] %s - %s ($%.2f) - Available: %d", id, match, date, price, availableSeats);
+        return String.format(java.util.Locale.US, "[%d] %s - %s ($%.2f) - Available: %d", id, match, date, price, availableSeats);
     }
 }

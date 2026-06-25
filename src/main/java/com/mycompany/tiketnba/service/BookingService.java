@@ -63,10 +63,12 @@ public class BookingService {
         }
 
         game.setAvailableSeats(game.getAvailableSeats() - quantity);
-        return new Ticket(customerName, game, quantity);
-    }
-}
+        Ticket ticket = new Ticket(customerName, game, quantity);
         bookingHistory.add(ticket);
         return ticket;
+    }
+
+    public List<Ticket> getBookingHistory() {
+        return bookingHistory;
     }
 }

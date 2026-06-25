@@ -101,7 +101,7 @@ public class TiketNBA {
             }
 
             double total = game.getPrice() * quantity;
-            System.out.printf("Total Amount: $%.2f\n", total);
+            System.out.printf(java.util.Locale.US, "Total Amount: $%.2f\n", total);
 
             System.out.println("Choose Payment Method:");
             System.out.println("1. Credit Card");

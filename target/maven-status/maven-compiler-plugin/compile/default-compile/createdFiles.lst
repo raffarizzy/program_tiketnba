@@ -1,0 +1,4 @@
+com\mycompany\tiketnba\model\Game.class
+com\mycompany\tiketnba\TiketNBA.class
+com\mycompany\tiketnba\service\BookingService.class
+com\mycompany\tiketnba\model\Ticket.class
